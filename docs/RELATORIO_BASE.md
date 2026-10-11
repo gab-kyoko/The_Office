@@ -2,9 +2,9 @@
 
 ## Portal da Filial de Scranton
 
-**Estudante:** [PREENCHER]
+**Estudante:** Gabrielle Kyoko Alves Abe
 
-**Data:** [PREENCHER]
+**Data:** 10/10/2026
 
 ## Objetivo
 
