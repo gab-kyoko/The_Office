@@ -1,0 +1,51 @@
+.jello-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(3, 15, 28, .82);
+    backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 80;
+    padding: 1rem;
+}
+
+.jello-card {
+    background: #fff;
+    border-top: 6px solid var(--red);
+    padding: 2rem;
+    max-width: 31rem;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 22px 65px rgba(0, 0, 0, .42);
+}
+.jello-classified { color: var(--red); font-size: .62rem; font-weight: 900; letter-spacing: .13em; text-transform: uppercase; }
+
+.jello-svg {
+    width: 170px;
+    height: auto;
+    margin: .75rem auto;
+}
+
+.jello-card h2 { color: var(--navy); font: 700 2rem/1.05 var(--condensed); text-transform: uppercase; }
+.jello-title {
+    max-width: 24rem;
+    margin: .75rem auto 1.35rem;
+    color: var(--muted);
+    font-size: .82rem;
+    line-height: 1.55;
+}
+
+.jello-btn {
+    background-color: #1f3a5f;
+    color: #fff;
+    border: none;
+    min-height: 3rem;
+    padding: .75rem 1rem;
+    cursor: pointer;
+    font-size: .7rem;
+    font-weight: 900;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    box-shadow: 4px 4px 0 var(--red);
+}

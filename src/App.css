@@ -1,0 +1,25 @@
+.app-container {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.secret-toast {
+    position: fixed;
+    z-index: 90;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    max-width: min(23rem, calc(100vw - 2.5rem));
+    padding: .9rem 1rem;
+    color: #fff;
+    background: var(--navy);
+    border-left: 4px solid var(--red);
+    box-shadow: 0 12px 35px rgba(11, 31, 56, .28);
+    font-size: .86rem;
+    font-weight: 700;
+    transform: translateY(160%);
+    opacity: 0;
+    transition: transform .25s ease, opacity .25s ease;
+}
+
+.secret-toast span { color: var(--yellow); margin-right: .45rem; }
+.secret-toast.is-visible { transform: translateY(0); opacity: 1; }

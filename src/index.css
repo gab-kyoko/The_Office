@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Oswald:wght@500;600;700&family=Public+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --navy: #0b1f38;
+    --red: #c9382e;
+    --paper: #f4f5f3;
+    --ink: #14202d;
+    --muted: #5d6772;
+    --line: #ccd2d8;
+    --yellow: #f1c75b;
+    --sans: 'Public Sans', Arial, sans-serif;
+    --condensed: 'Oswald', Impact, sans-serif;
+    --serif: 'Libre Baskerville', Georgia, serif;
+    color: var(--ink);
+    background: var(--paper);
+    font-family: var(--sans);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { min-width: 320px; min-height: 100vh; color: var(--ink); background: var(--paper); }
+button, input, textarea, select { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+img { max-width: 100%; }
+::selection { color: #fff; background: var(--red); }
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}

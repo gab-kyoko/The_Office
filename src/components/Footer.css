@@ -1,0 +1,24 @@
+.footer-container {
+    padding: 4.5rem clamp(1.25rem, 6vw, 6rem) 1.5rem;
+    color: #fff;
+    background: #071527;
+}
+.footer-main { max-width: 78rem; margin: 0 auto; display: grid; grid-template-columns: 1.25fr 1fr auto; gap: 3rem; align-items: start; }
+.footer-wordmark { padding: 0; color: #fff; background: none; border: 0; cursor: pointer; font: 700 2.35rem/.78 var(--condensed); letter-spacing: -.03em; text-align: left; }
+.footer-wordmark small { margin-left: .25rem; font-size: .55rem; letter-spacing: .08em; }
+.footer-main > div:first-child > p { margin-top: 1rem; color: #9fb0c1; font: italic .75rem/1.4 var(--serif); }
+.footer-office { display: flex; flex-direction: column; }
+.footer-office span { color: #ef8e86; font-size: .62rem; font-weight: 900; letter-spacing: .14em; text-transform: uppercase; }
+.footer-office strong { margin-top: .65rem; font-size: .95rem; }
+.footer-office p { margin-top: .4rem; color: #9fb0c1; font-size: .75rem; }
+.footer-main nav { display: grid; grid-template-columns: repeat(2, auto); gap: .8rem 2rem; }
+.footer-main nav a { color: #d9e3ec; font-size: .75rem; font-weight: 700; text-decoration: none; }
+.footer-main nav a:hover { color: #fff; text-decoration: underline; text-decoration-color: var(--red); text-underline-offset: .25rem; }
+.threat-level { max-width: 78rem; margin: 2.5rem auto 0; padding: .8rem 1rem; color: var(--navy); background: var(--yellow); font-size: .76rem; font-weight: 900; letter-spacing: .04em; text-transform: uppercase; }
+.footer-bottom { max-width: 78rem; margin: 3.5rem auto 0; padding-top: 1.25rem; display: flex; justify-content: space-between; gap: 1rem; color: #74879a; border-top: 1px solid #26394c; font-size: .64rem; }
+
+@media (max-width: 760px) {
+    .footer-main { grid-template-columns: 1fr; }
+    .footer-main nav { width: fit-content; }
+    .footer-bottom { flex-direction: column; }
+}

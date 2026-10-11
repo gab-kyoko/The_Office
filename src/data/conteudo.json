@@ -1,0 +1,247 @@
+{
+  "header": {
+    "titulo": "Dunder Mifflin Paper Company",
+    "subtitulo": "Filial de Scranton, PA — \"O papel que move o escritório\""
+  },
+
+  "sobre": {
+    "titulo": "Grandes redes vendem papel. Nós construímos relações.",
+    "texto": "A Dunder Mifflin combina a agilidade de uma fornecedora local com um atendimento que conhece cada cliente. Na filial de Scranton, uma simples caixa de papel nunca é só uma caixa: é uma promessa de que seu escritório não vai parar."
+  },
+
+  "avisoMural": {
+    "titulo": "Mural de Scranton",
+    "subtitulo": "Comunicados oficiais, extraoficiais e aqueles que o RH pediu para retirar.",
+    "avisos": [
+      {
+        "id": 1,
+        "categoria": "RH",
+        "data": "segunda-feira",
+        "titulo": "Treinamento de segurança",
+        "texto": "Não haverá simulação de incêndio sem autorização. Isto inclui fechar portas, aquecer maçanetas ou gritar instruções.",
+        "assinatura": "— Toby Flenderson",
+        "tipo": "memo"
+      },
+      {
+        "id": 2,
+        "categoria": "Cozinha",
+        "data": "urgente",
+        "titulo": "Sobre a geladeira",
+        "texto": "O iogurte com o nome ‘Pam’ não é comunitário. O mesmo vale para o chili na panela grande.",
+        "assinatura": "— A gerência",
+        "tipo": "sticky"
+      },
+      {
+        "id": 3,
+        "categoria": "Comitê de festas",
+        "data": "sexta, 16h",
+        "titulo": "Aniversários do mês",
+        "texto": "Um bolo para todos. Sem serpentinas verdes. Traga seu próprio garfo e não convide fornecedores.",
+        "assinatura": "— Angela Martin",
+        "tipo": "card"
+      }
+    ]
+  },
+
+  "equipe": {
+    "titulo": "As pessoas por trás do papel",
+    "dica": "Abra um arquivo. Alguns funcionários escondem mais do que o currículo.",
+    "membros": [
+      {
+        "id": 1,
+        "nome": "Michael Scott",
+        "cargo": "Gerente Regional",
+        "departamento": "Gerência",
+        "curiosidade": "Tem uma caneca que resume bem o que ele acha de si mesmo.",
+        "iniciais": "MS",
+        "corAvatar": "#4a6fa5",
+        "foto": "/assets/michael-scott.png",
+        "paginaPessoal": {
+          "bio": "Acredita que já foi ator, comediante e, principalmente, o melhor chefe do mundo. Ninguém confirma nenhum dos três.",
+          "curiosidadeExtra": "Guarda a chave do escritório escondida embaixo do capacho, mas conta pra qualquer visitante onde ela está."
+        }
+      },
+      {
+        "id": 2,
+        "nome": "Dwight Schrute",
+        "cargo": "Assistente (do) Gerente Regional",
+        "departamento": "Vendas · Segurança voluntária",
+        "curiosidade": "Também cria beterrabas na fazenda da família nas horas vagas.",
+        "iniciais": "DS",
+        "corAvatar": "#6a994e",
+        "foto": "/assets/dwight-schrute.png",
+        "easterEgg": "gelatina",
+        "paginaPessoal": {
+          "bio": "Segundo em comando não-oficial. Tem um plano de contingência pra tudo, inclusive pra coisas que nunca vão acontecer.",
+          "curiosidadeExtra": "Guarda um kit de sobrevivência completo dentro da própria mesa, incluindo uma faca que ele jura ser regulamentada."
+        }
+      },
+      {
+        "id": 3,
+        "nome": "Jim Halpert",
+        "cargo": "Representante de Vendas",
+        "departamento": "Vendas",
+        "curiosidade": "Especialista em pregar peças no colega da mesa ao lado.",
+        "iniciais": "JH",
+        "corAvatar": "#bc6c25",
+        "foto": "/assets/jim-halpert.png",
+        "easterEgg": "camera",
+        "paginaPessoal": {
+          "bio": "Passa mais tempo planejando a próxima pegadinha do que efetivamente vendendo papel, mas de algum jeito bate a meta todo mês.",
+          "curiosidadeExtra": "Tem um talento especial pra imitar o colega da mesa ao lado sem que ele perceba."
+        }
+      },
+      {
+        "id": 4,
+        "nome": "Pam Beesly",
+        "cargo": "Recepcionista",
+        "departamento": "Recepção",
+        "curiosidade": "Sabe tudo o que acontece no escritório antes de qualquer outra pessoa.",
+        "iniciais": "PB",
+        "corAvatar": "#d4a24c",
+        "foto": "/assets/pam-beesly.png",
+        "paginaPessoal": {
+          "bio": "Controla a recepção, a agenda da gerência e, nas entrelinhas, boa parte da paz do escritório.",
+          "curiosidadeExtra": "Desenha nas horas vagas e finge que não percebe as pegadinhas armadas bem na frente dela."
+        }
+      },
+      {
+        "id": 5,
+        "nome": "Andy Bernard",
+        "cargo": "Representante de Vendas",
+        "departamento": "Vendas",
+        "curiosidade": "Não perde a chance de lembrar todo mundo que estudou em Cornell.",
+        "iniciais": "AB",
+        "corAvatar": "#7b4b94",
+        "foto": "/assets/andy-bernard.png",
+        "easterEgg": "cornell",
+        "paginaPessoal": {
+          "bio": "Canta a qualquer sinal de silêncio constrangedor e trata cada reunião como uma oportunidade de solo vocal.",
+          "curiosidadeExtra": "Tem um repertório de a cappella pronto pra qualquer ocasião, pedida ou não."
+        }
+      },
+      {
+        "id": 6,
+        "nome": "Kevin Malone",
+        "cargo": "Contador",
+        "departamento": "Contabilidade",
+        "curiosidade": "Guarda receita própria de um chili que promete ser lendário.",
+        "iniciais": "KM",
+        "corAvatar": "#a4423f",
+        "foto": "/assets/kevin-malone.png",
+        "easterEgg": "chili",
+        "paginaPessoal": {
+          "bio": "Cuida da contabilidade da filial com uma tranquilidade que nem sempre bate com a complexidade da planilha.",
+          "curiosidadeExtra": "Já tentou trazer o chili pro escritório mais de uma vez. Nem sempre a viagem até a mesa dá certo."
+        }
+      },
+      {
+        "id": 7,
+        "nome": "Angela Martin",
+        "cargo": "Contadora Sênior",
+        "departamento": "Contabilidade",
+        "curiosidade": "Mantém o comitê de festas com regras mais rígidas que o RH.",
+        "iniciais": "AM",
+        "corAvatar": "#5c5470",
+        "foto": "/assets/angela-martin.png",
+        "paginaPessoal": {
+          "bio": "Comanda o comitê de festas do escritório com uma disciplina que nenhuma comemoração realmente pede.",
+          "curiosidadeExtra": "Tem uma coleção de gatos em casa maior do que ela está disposta a admitir no trabalho."
+        }
+      },
+      {
+        "id": 8,
+        "nome": "Stanley Hudson",
+        "cargo": "Representante de Vendas",
+        "departamento": "Vendas",
+        "curiosidade": "Só reage de verdade quando o assunto é o crossword do dia.",
+        "iniciais": "SH",
+        "corAvatar": "#3d5a80",
+        "foto": "/assets/stanley-hudson.png",
+        "easterEgg": "pretzel",
+        "paginaPessoal": {
+          "bio": "Faz o mínimo de esforço social necessário e o máximo de esforço possível pra evitar reuniões de equipe.",
+          "curiosidadeExtra": "Guarda um estoque de palavras cruzadas suficiente pra sobreviver a qualquer reunião longa."
+        }
+      },
+      {
+        "id": 9,
+        "nome": "Oscar Martinez",
+        "cargo": "Contador",
+        "departamento": "Contabilidade",
+        "curiosidade": "É frequentemente convocado para corrigir fatos que ninguém pediu para conferir.",
+        "iniciais": "OM",
+        "corAvatar": "#4f6d7a",
+        "foto": "/assets/oscar-martinez.png",
+        "easterEgg": "bankruptcy",
+        "paginaPessoal": {
+          "bio": "Um dos poucos adultos funcionais da filial. Cuida dos números e tenta, sem sucesso, manter as reuniões próximas da realidade.",
+          "curiosidadeExtra": "Já precisou explicar ao gerente regional por que declarar falência não funciona quando se grita a frase em voz alta."
+        }
+      },
+      {
+        "id": 10,
+        "nome": "Toby Flenderson",
+        "cargo": "Representante de Recursos Humanos",
+        "departamento": "Recursos Humanos",
+        "curiosidade": "Mantém um arquivo para cada incidente. A gaveta já não fecha.",
+        "iniciais": "TF",
+        "corAvatar": "#61707b",
+        "foto": "/assets/toby-flenderson.png",
+        "paginaPessoal": {
+          "bio": "Responsável por políticas, mediação e por dizer ‘não’ para ideias que nunca deveriam ter saído da sala da gerência.",
+          "curiosidadeExtra": "É o administrador oficial do portal interno e o único que lê os termos de uso até o fim."
+        }
+      },
+      {
+        "id": 11,
+        "nome": "Creed Bratton",
+        "cargo": "Garantia de Qualidade",
+        "departamento": "Qualidade · Provavelmente",
+        "curiosidade": "Ninguém tem certeza de quando foi contratado — incluindo ele.",
+        "iniciais": "CB",
+        "corAvatar": "#6f6256",
+        "foto": "/assets/creed-bratton.png",
+        "easterEgg": "mung",
+        "paginaPessoal": {
+          "bio": "Executa tarefas de garantia de qualidade cuja natureza permanece confidencial, incompreensível ou possivelmente inventada.",
+          "curiosidadeExtra": "Mantém feijão mungo brotando na gaveta porque é muito nutritivo e cheira exatamente como a morte."
+        }
+      },
+      {
+        "id": 12,
+        "nome": "Ryan Howard",
+        "cargo": "Temporário",
+        "departamento": "Temporários · Estratégia digital",
+        "curiosidade": "Começou como temporário e ainda trata cada cargo como uma fase de testes.",
+        "iniciais": "RH",
+        "corAvatar": "#395f85",
+        "foto": "/assets/ryan-howard.png",
+        "easterEgg": "wuphf",
+        "paginaPessoal": {
+          "bio": "Alterna entre atender ligações, apresentar ideias digitais e agir como se estivesse prestes a fundar a próxima grande startup.",
+          "curiosidadeExtra": "O site anterior da empresa não sobreviveu à visão dele. Este portal possui cópias de segurança."
+        }
+      },
+      {
+        "id": 13,
+        "nome": "Kelly Kapoor",
+        "cargo": "Atendimento ao Cliente",
+        "departamento": "Relacionamento com clientes",
+        "curiosidade": "Transforma qualquer ligação de suporte em uma história com pelo menos três reviravoltas.",
+        "iniciais": "KK",
+        "corAvatar": "#a8657f",
+        "foto": "/assets/kelly-kapoor.png",
+        "easterEgg": "birthday",
+        "paginaPessoal": {
+          "bio": "Cuida dos clientes com entusiasmo, opinião e um domínio de cultura pop muito acima do necessário para uma empresa de papel.",
+          "curiosidadeExtra": "Organiza aniversários temáticos mesmo quando a pessoa aniversariante pediu explicitamente que não houvesse festa."
+        }
+      }
+    ]
+  },
+
+  "rodape": {
+    "copyright": "© 2026 Dunder Mifflin Inc. Todos os direitos reservados."
+  }
+}
